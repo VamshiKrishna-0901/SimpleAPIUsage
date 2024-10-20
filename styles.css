@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    background-color: rgb(229, 230, 226);
+  
+    font-size: 26px;
+    color: rgb(71, 65, 65);
+  
+    height: 100vh;
+  
+    --border: 1px solid red;
+  }
+  
+  #title {
+    height: 12rem;
+    text-align: center;
+    height: fit-content;
+  }
+  
+  #main-title {
+    font-size: 6rem;
+    font-weight: 600;
+    margin: 0px 0;
+  }
+  
+  #sub-title {
+    font-size: 2rem;
+    margin: 0px 0px 20px 150px;
+  }
+  
+  #search-input {
+    font-size: 2rem;
+  
+    margin: 30px 0px;
+    border-radius: 5px;
+  }
+  
+  #search-button {
+    font-size: 2rem;
+    margin: 0 0 0 30px;
+    padding: 2px 15px;
+    border-radius: 5px;
+  }
+  
+  .container div {
+    margin: 10px 0;
+  }
+  
+  .container {
+    border: 1px solid white;
+    box-shadow: 15px 30px 20px 10px;
+    height: auto;
+    width: 25em;
+    min-width: 500px;
+  
+    background-color: rgb(13, 18, 34);
+    color: white;
+  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* font-size: 10px; */
+  }
+  
+  #hp {
+    width: 100px;
+    height: 38px;
+    border-radius: 7px;
+    padding: 6px 10px 0px 10px;
+  
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  
+    background-color: white;
+    color: black;
+    font-weight: 550;
+  }
+  
+  .container::before {
+    content: '';
+    position: absolute;
+    width: 17.3em;
+    z-index: 0;
+  
+    border: 100px solid red;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  
+  #sprite {
+    position: absolute;
+    transform: translateX(65%) translateY(-12%);
+  
+    width: 300px;
+    height: 300px;
+  }
+  
+  #pokemon {
+    margin-top: 240px;
+    margin-left: 80px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 4px 0;
+    width: 500px;
+  }
+  
+  #pokemon * {
+    padding-left: 25px;
+  }
+  
+  .flex-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .cover {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 30px;
+  }
+  
+  hr {
+    width: 100%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .flex1 { 
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .flex2 {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 1fr 1fr;
+  }
+  
